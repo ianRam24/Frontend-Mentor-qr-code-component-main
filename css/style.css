@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    padding: 2em .8em;
+    margin-left: 10px;
+    font-size: 15px;
+    gap: 1em;
+}
+
+.card-container {
+    width: 250px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.img-container,
+.text-container {
+    width: 200px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* h2,
+p {
+    text-align: center;
+} */
+
+h2 {
+    margin-top: 1em;
+    margin-left: .5em;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size: 1.1em;
+}
+
+.text-container p {
+    text-align: center;
+    font-weight: 400;
+    font-size: .8em;
+    padding: 1em 0;
+    color: hsl(220, 15%, 55%)
+}
+
+
+.attribution {
+    margin-top: 1em;
+    font-family: 'Outfit', sans-serif;
+}
+
+.attribution a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    margin-left: 3px;
+
+}
+
+@media (min-width: 400px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+}
